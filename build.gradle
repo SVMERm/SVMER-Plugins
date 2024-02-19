@@ -49,6 +49,7 @@ dependencies {
     implementation project(path: ':E3T4G')
     implementation project(path: ':EthansApi')
     implementation project(path: ':ChinBreakHandler')
+    implementation project(path: ':Construction')
     implementation project(path: ':GauntletFlicker')
     implementation project(path: ':Harpoon2Ticker')
     implementation project(path: ':HerbCleaner')
@@ -86,8 +87,7 @@ sourceSets {
 }
 
 group = 'com.piggyplugins'
-version = '1.0.26'
-sourceCompatibility = "11"
+version = '1.0.0'
 
 task FatJar(type: Jar) {
     manifest {
